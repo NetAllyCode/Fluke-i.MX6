@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icons/autotest.bmp</file>
+        <file>icons/tools.bmp</file>
+        <file>icons/UI/autotest.bmp</file>
+        <file>icons/UI/capture.bmp</file>
+        <file>icons/UI/save.bmp</file>
+        <file>icons/UI/tools.bmp</file>
+        <file>icons/channels.bmp</file>
+        <file>icons/aps.bmp</file>
+        <file>icons/networks.BMP</file>
+        <file>icons/clients.BMP</file>
+        <file>icons/UI/autotest_down.bmp</file>
+        <file>icons/UI/capture_down.bmp</file>
+        <file>icons/UI/save_down.bmp</file>
+        <file>icons/UI/tools_down.bmp</file>
+        <file>icons/UI/back.bmp</file>
+        <file>icons/UI/profile.bmp</file>
+        <file>icons/UI/refresh.bmp</file>
+        <file>icons/UI/battery_empty.bmp</file>
+        <file>icons/UI/battery_full.bmp</file>
+        <file>icons/UI/battery_half.bmp</file>
+        <file>icons/UI/clear.bmp</file>
+        <file>icons/UI/autotest_dialog.bmp</file>
+        <file>icons/UI/profile_down.bmp</file>
+        <file>icons/UI/refresh_down.bmp</file>
+        <file>icons/UI/wont_back_down.bmp</file>
+        <file>icons/UI/battery_0.bmp</file>
+        <file>icons/UI/battery_60.bmp</file>
+        <file>icons/UI/battery_80.bmp</file>
+        <file>icons/UI/battery_100.bmp</file>
+        <file>icons/UI/battery_20.bmp</file>
+        <file>icons/UI/battery_40.bmp</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
