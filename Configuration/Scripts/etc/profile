@@ -33,16 +33,19 @@ if [ "$PS1" ]; then
     export EDITOR='/bin/vi'
     export INPUTRC=/etc/inputrc
     export DMALLOC_OPTIONS=debug=0x34f47d83,inter=100,log=logfile
+
+    #Add the following for QT touch screen support:
     export LD_LIBRARY_PATH=/usr/lib
     export TSLIB_TSEVENTTYPE=INPUT
-    export QWS_MOUSE_PROTO=tslib:/dev/input/event1
+    export QWS_MOUSE_PROTO=tslib:/dev/input/event1 # May not be event1 on all systems 
     export TSLIB_CONSOLEDEVICE=none
     export TSLIB_FBDEVICE=/dev/fb0
-    export TSLIB_CALIBFILE=/etc/pointercal
+    export TSLIB_CALIBFILE=/etc/pointercal # Make sure calibration is done. Run /usr/bin/ts_calibrate
     export TSLIB_CONFFILE=/etc/ts.conf
     export TSLIB_PLUGINDIR=/usr/lib/ts
-    export TSLIB_TSDEVICE=/dev/input/event1
+    export TSLIB_TSDEVICE=/dev/input/event1 # May not event1 on all systems
     export QWS_DISPLAY=LinuxFB:mmWidth=800:mmHeight=480
+    #---------------------------------------------------
 
 
     ### Some aliases
