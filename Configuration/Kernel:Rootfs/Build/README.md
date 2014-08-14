@@ -20,8 +20,6 @@ Copy and extract modules.tar.gz in the /lib/ folder
 
 	sudo cp -R /home/USERNAME/projects/snackers/system/kernel/tmp/lib/modules lib
 	
-	sudo tar -xzvf modules.tar.gz
-	
 Sync and remove SD card:
 
 	sync
