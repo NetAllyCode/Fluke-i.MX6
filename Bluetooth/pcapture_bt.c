@@ -97,22 +97,22 @@ void handle_packet(u_char *args, const struct pcap_pkthdr *header, const u_char 
 	switch(ntohs(ethernet->ether_type))
 	{
 		case 0x0800:
-			sprintf(tmp, "%s)\n", "IPv4");
+			sprintf(tmp, "%s", "IPv4");
 			break;
 		case 0x86DD:
-			sprintf(tmp, "%s)\n", "IPv6");
+			sprintf(tmp, "%s", "IPv6");
 			break;
 		case 0x0806:
-			sprintf(tmp, "%s)\n", "ARP");
+			sprintf(tmp, "%s", "ARP");
 			break;
 		case 0x8100:
-			sprintf(tmp, "%s)\n", "VLAN frame");
+			sprintf(tmp, "%s", "VLAN frame");
 			break;
 		case 0x0032:
-			sprintf(tmp, "%s)\n", "ARP");
+			sprintf(tmp, "%s", "ARP");
 			break;
 		default:
-			sprintf(tmp, "%04x)\n", ntohs(ethernet->ether_type));
+			sprintf(tmp, "%04x", ntohs(ethernet->ether_type));
 			break;
 	}
 
